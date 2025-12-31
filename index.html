@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <title>TEL 596</title>
@@ -11,10 +11,10 @@
   <div id="password-screen">
     <div id="password-screen-content">
       <img id="password-image" src="image.jpg" />
-      <h2 style="margin: 0;">Enter Password</h2>
+      <h2>Şifreyi Giriniz</h2>
       <div id="password-input-container">
         <input type="password" id="password-input" />
-        <button id="password-button">Enter</button>
+        <button id="password-button">Giriş</button>
       </div>
       <div id="error"></div>
     </div>
@@ -24,6 +24,29 @@
   <div id="container" class="hidden">
     <h1>Bilimsel Araştırma, Etik ve Seminer Dersi Proje Sunumları</h1>
     <img id="password-image" src="list.jpeg" />
+
+    <!-- FILTERS -->
+    <div style="margin-bottom: 15px;">
+      
+      <!-- DOMAIN FILTER -->
+      <select id="context-filter">
+        <option value="all">Tümü</option>
+        <option value="academic">Akademik</option>
+        <option value="industrial">Endüstriyel</option>
+        <option value="historical">Tarihsel</option>
+      </select>
+
+      <!-- KEYWORD FILTER -->
+      <select id="ethic-filter">
+        <option value="all">Tümü</option>
+        <option value="plagiarism">İntihal</option>
+        <option value="fabrication">Veri Uydurma</option>
+        <option value="falsification">Veri Çarpıtma</option>
+        <option value="misconduct">Etik İhlali</option>
+        <option value="scientific_dispute">Bilimsel Öncelik / Tartışma</option>
+      </select>
+    </div>
+
     <div id="items"></div>
   </div>
 
@@ -46,8 +69,7 @@
       <a id="detail-presentation" target="_blank">Sunum Linki</a>
     </p>
 
-   <div id="detail-video"></div>
-
+    <div id="detail-video"></div>
   </div>
 
   <script src="index.js"></script>
