@@ -19,6 +19,12 @@ const data = [
     presentation: "projects/504231334/sunum.pdf",
   },
   {
+    name: "Galileo ve Kilise",
+    presenter: "Yusuf Kağan Hanoğlu",
+    pdf: "projects/504231343/rapor.pdf",
+    presentation: "projects/504231343/sunum.pdf",
+  },
+  {
     name: "Uluslararası Yüksek Öğrenim Öğrencilerinde Akademik Mobbing",
     presenter: "Nazife Esra Çiğdem",
     pdf: "projects/504231339/rapor.pdf",
@@ -29,12 +35,6 @@ const data = [
     presenter: "Emre Saka",
     pdf: "projects/504231341/rapor.pdf",
     presentation: "projects/504231341/sunum.pdf",
-  },
-  {
-    name: "Galileo ve Kilise",
-    presenter: "Yusuf Kağan Hanoğlu",
-    pdf: "projects/504231343/rapor.pdf",
-    presentation: "projects/504231343/sunum.pdf",
   },
   {
     name: "Makalelerde İntihalin Yapay Zeka Destekli Analizi",
